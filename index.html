@@ -8,22 +8,22 @@
     <style>
       .error-box {
         position: fixed;
-        top: 50%;
+        top: 10px;
         left: 50%;
-        transform: translate(-50%, -50%);
-        width: 80%;
-        height: 50%;
+        transform: translateX(-50%);
+        width: 300px;
+        height: 100px;
         background: rgba(255, 0, 0, 0.8);
         color: white;
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 24px;
+        font-size: 18px;
         font-weight: bold;
         text-align: center;
-        z-index: 9999;
-        border: 5px solid black;
-        box-shadow: 0 0 20px black;
+        z-index: 1000;
+        border: 3px solid black;
+        box-shadow: 0 0 10px black;
       }
     </style>
   </head>
@@ -40,6 +40,8 @@
         </nav>
       </div>
     </header>
+
+    <div class="error-box">Uh oh SpaghettiOs, you can't see what's here now!</div>
 
     <main>
       <section class="hero">
@@ -75,8 +77,6 @@
         </form>
       </section>
     </main>
-
-    <div class="error-box">ERROR: Uh oh spaghettiOs, something went wrong!</div>
 
     <footer>
       <p>2024 Team C. No rights reserved.</p>
